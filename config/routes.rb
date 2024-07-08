@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   get "/fortune_path", controller: "my_examples", action: "get_random_fortune"
+  get "/lotto_path", controller: "my_examples", action: "generate_lotto_numbers"
+  get "/counter_path", controller: "my_examples", action: "increment_visit_count"
 end
