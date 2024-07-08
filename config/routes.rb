@@ -7,5 +7,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  get "/fortune_path", controller: "my_examples", action: "fortune_method"
+  get "/fortune_path", controller: "my_examples", action: "get_random_fortune"
 end
